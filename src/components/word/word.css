@@ -1,0 +1,33 @@
+.word__container {
+  display: flex;
+}
+
+.word__letter {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #787c7e;
+  margin: 3px 3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrod__letter-right {
+  background-color: #6aaa64;
+  border: 2px solid #6aaa64;
+}
+
+.wrod__letter-present {
+  background-color: #c9b458;
+  border: 2px solid #c9b458;
+}
+
+.wrod__letter-absent {
+  background-color: #787c7e;
+  border: 2px solid #787c7e;
+}
